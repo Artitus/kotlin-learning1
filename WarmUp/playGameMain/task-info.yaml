@@ -16,5 +16,8 @@ files:
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 17 Apr 2025 19:38:59 UTC"
+record: 25

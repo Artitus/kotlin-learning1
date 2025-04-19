@@ -2,7 +2,7 @@
 <module external.linked.project.id=":WarmUp-task:test" external.linked.project.path="$MODULE_DIR$/../../../../WarmUp/task" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="CSC_Kotlin_Course" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet external-system-id="GRADLE" type="kotlin-language" name="Kotlin">
-      <configuration version="5" platform="JVM 11" allPlatforms="JVM [11]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/../../../../WarmUp/task/src/main/kotlin;/Users/masonherbel/IdeaProjects/Kotlin_Onboarding__Introduction/WarmUp/task/src/test/kotlin">
+      <configuration version="5" platform="JVM 11" allPlatforms="JVM [11]" useProjectSettings="false" pureKotlinSourceFolders="C:\Users\mherbel\IdeaProjects\kotlin-learning1\WarmUp\task\src\test\kotlin;C:\Users\mherbel\IdeaProjects\kotlin-learning1\WarmUp\task\src\main\kotlin">
         <additionalVisibleModuleNames>:WarmUp-task:main</additionalVisibleModuleNames>
         <compilerSettings />
         <compilerArguments>
@@ -38,7 +38,9 @@
     <output-test url="file://$MODULE_DIR$/../../../../WarmUp/task/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../WarmUp/task/src/test" />
-    <content url="file://$MODULE_DIR$/../../../../WarmUp/task/test" />
+    <content url="file://$MODULE_DIR$/../../../../WarmUp/task/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../WarmUp/task/test" isTestSource="true" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="CSC_Kotlin_Course.WarmUp-task.main" />
