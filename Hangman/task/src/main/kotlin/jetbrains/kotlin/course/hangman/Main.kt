@@ -21,6 +21,18 @@ fun isWon(complete: Boolean, attempts: Int, maxAttemptsCount: Int) = complete &&
 // You will use this function later
 fun isLost(complete: Boolean, attempts: Int, maxAttemptsCount: Int) = !complete && attempts > maxAttemptsCount
 
+fun isComplete(secret: String, currentGuess: String) = secret.all { it in currentGuess}
+
+fun generateNewUserWord(secret: String, guess: Char, currentUserWord: String):String {
+    var newWord = ""
+
+    secret.indices.forEach { index ->
+
+    }
+
+    return newWord
+}
+
 fun main() {
     // Uncomment this code on the last step of the game
 

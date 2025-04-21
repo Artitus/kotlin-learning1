@@ -20,5 +20,11 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLScylICclQIi9_YDjO7iuyRITDLn0Qgzw_aLxKxiishKAbL0qg/viewform?usp=pp_url&entry.2103429047=Introduction/Hangman/Core
-status: Unchecked
-record: -1
+status: Failed
+feedback:
+  message: "The function generateNewUserWord with arguments: secret=BOOK, guess=A,\
+    \ and currentUserWord=_ _ _ _ should return _ _ _ _"
+  time: "Mon, 21 Apr 2025 21:31:52 UTC"
+  expected: _ _ _ _
+  actual: BOOK
+record: 50
